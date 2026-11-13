@@ -1,0 +1,8 @@
+fastapi>=0.115        # Web 框架
+uvicorn[standard]>=0.30  # ASGI 服务器
+pydantic>=2.8         # 数据模型/schema 校验
+pyyaml>=6.0           # 规则集 YAML 读写
+python-multipart>=0.0.9  # （备用）表单/文件上传
+pywebview==5.4        # 独立桌面窗口（Windows 内置 WebView2；6.x 存在关窗崩溃 Bug，锁定 5.4）
+pythonnet==3.0.5      # pywebview 5.4 的 .NET 互操作依赖（锁定兼容版本）
+pyinstaller>=6.10     # 打包（仅构建期需要）

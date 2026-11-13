@@ -1,0 +1,36 @@
+style_profile:
+  id: "00000001"
+  name: "PEP 8 (Python 官方风格)"
+  language: "python"
+  version: "1.0"
+  created_at: "2025-01-01T00:00:00Z"
+  source: "preset"
+  rules:
+    naming:
+      variables: "snake_case"
+      functions: "snake_case"
+      classes: "PascalCase"
+      constants: "UPPER_SNAKE"
+      private_prefix: "_"
+      member_prefix: ""
+    indent:
+      style: "space"
+      size: 4
+    brace_style:
+      style: "k_and_r"
+      space_before_paren: true
+    spacing:
+      space_around_operators: true
+      space_after_comma: true
+      trim_trailing_whitespace: true
+    blank_lines:
+      max_consecutive: 2
+      between_functions: 2
+      after_imports: 1
+    comments:
+      inline_min_spaces: 2
+      docstring_format: "google"
+    declarations:
+      cpp_const_style: "east"
+      python_type_hints: true
+  meta: {}

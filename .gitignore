@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Runtime data (local state, not source)
+data/history/
+data/profiles/
+data/webview_data/
+scripts/_wv_test_data/
+
+# Build artifacts
+backend/app/static/
+build/
+dist/
+*.spec.bak
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# WorkBuddy
+.workbuddy/
